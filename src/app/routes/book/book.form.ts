@@ -33,12 +33,12 @@ import { Booking } from '@models/booking.interface';
           label="Premium Food"
           type="checkbox"
         ></app-input-control>
-        <!-- <app-options-control
+        <app-options-control
           formControlName="paymentMethod"
           label="Payment Method"
           [options]="paymentMethodOptions"
         >
-        </app-options-control> -->
+        </app-options-control>
       </article>
       <button type="submit" (click)="onSubmit()">Make Trip Booking</button>
     </form>
